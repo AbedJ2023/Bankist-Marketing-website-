@@ -303,3 +303,7 @@ slider();
 // // Going sideways: siblings
 // console.log(h1.previousElementSibling);
 // console.log(h1.nextElementSibling);
+
+// document.addEventListener('DOMContentLoaded', e => {
+//   console.log('HTML Parsed and dom tree built', e);
+// });
