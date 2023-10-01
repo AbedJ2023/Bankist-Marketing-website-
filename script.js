@@ -233,6 +233,8 @@ const activateDot = slide => {
     .classList.add('dots__dot--active');
 };
 
+activateDot(0);
+
 const goToSlide = slide => {
   slides.forEach(
     (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
